@@ -97,5 +97,18 @@ public class Picture
             roof.changeColor("green");
             sun.changeColor("yellow");
         }
-    }
+ 
+   }
+   /**
+ * Atardece
+ */
+public void atardecer()
+{
+        sun.slowMoveVertical(100);
+ }
 }
+
+
+ 
+    
+ 
